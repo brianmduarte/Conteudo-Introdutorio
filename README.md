@@ -5,7 +5,6 @@
 
 <h4>Pensamento computacional?</h4> 
 <strong> Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.</strong>
-<!-- utilização de CSS inline>
 
 4 pilares do pensamento computacional:
 •	Decomposição; reconhecimento de padrões; abstração e algoritmos.
