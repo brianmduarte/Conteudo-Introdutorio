@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -18,44 +17,42 @@ h1 {
     width: 100%;
     height: 130px;
     margin-left: 0;
-    text-align: center;
+    text-align: left;
     font-family: 'Shadows Into Light', cursive;
     background: linear-gradient(90deg, #b908c9, #f4f4ff);
     background-clip: text;
     -webkit-background-clip:text;
     color: transparent;
-    margin-top: 10px;
-    position:fixed;
-    font-size: 60px;
+    margin-top: 15px;
+    font-size: 50px;
+    padding-left: 210px;
 }
 
-img {
+#imagem {
     border-radius: 50%;
-    width: 150px;
-    left: 950;
-    top: 10;
-    position: fixed;
+    width: 100px;
+    border: 3px solid #3d393f;
+    position: absolute;
+    left: 40px;
+    top: 30px;
 }
 
 .container {
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-    margin-top: 160px;
+    justify-content: left;
+    margin-top: 0;
 }
 
 header {
-    background-color: #000000;
-    width: 100%;
     font-family: 'Titillium Web', sans-serif;
-    padding-right: 150px;
-    text-align: right;
+    background: linear-gradient(90deg, #b908c97a, #4c1c588c);
 }
 
 .menu {
     width: 50%;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .menu nav a {
@@ -63,48 +60,6 @@ header {
     text-decoration: none;
     padding-right: 50px;
     font-size: 20px;
-    position: relative;
+    padding-bottom: 15px;
 }
 
-.menu nav a::after {
-    content: " ";
-    width: 0px;
-    height: 4px;
-    background-image: linear-gradient(45deg,#FF2500, #FF7100);
-    position: absolute;
-    top: 30px;
-    left: 0;
-    transition: width 0.5s;
-}
-
-menu nav a:hover::after {
-    width: 30px;
-}
-
-.sociais {
-    width: 25%;
-}
-
-.redes button {
-    width: 35px;
-    height: 35px;
-    background-image: linear-gradient(45deg,#FF2500, #FF7100);
-    border: none;
-    margin-left: 15px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.redes button i {
-    font-size: 20px;
-    color: #FFFF;
-}
-
-h4 {
-    margin-top: 400px;
-    color: rgb(250, 249, 249);
-    font-size: 12px;
-    letter-spacing: 3px;
-    margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
